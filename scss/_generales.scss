@@ -1,0 +1,19 @@
+body{
+	background-color: $fondoPrincipal;
+	font-family: $fuentePrincipal;
+	font-weight: $fuenteMedium;
+}
+.tituloProductos{
+	font-size: ($tamañoFuente)*2;
+	color: $color2;
+	font-family: $fuenteSecundaria;
+	font-weight: $fuenteLight;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.titulo{
+	font-family: $fuenteSecundaria;
+	font-weight: $fuenteBold;
+	text-align: center;
+	font-size: ($tamañoFuente)*2;
+}

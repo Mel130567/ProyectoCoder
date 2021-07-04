@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto | Pasteleria Limonet Delicatessen</title>
+	<meta name="description" content="Limonet es una pasteleria artesanal ubicada en San Miguel Bs As. Tenemos todo tipo de propuestas dulces para cualquier tipo de ocasión.
+	Contactanos para saber más.">
+	<meta name="keywords" content="Pasteleria, Tortas, Muffins, Postres, Tartas dulces, Bombones, alfajores">
+	<meta charset="utf-8">
+	<meta name=viewport content="width=divice-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+    <header class="container-fluid px-0">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		   <a class="navbar-brand" href="../index.html">
+			 <img src="../img/logo.jpg" alt="logo">
+		   </a>
+		   <button class="navbar-toggler border border-ligth" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		   		<span class="navbar-toggler-icon"></span>
+		   </button>
+		   <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="menu navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../index.html#nosotros">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="productos.html">Productos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white " href="pedidos.html">Pedidos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="contacto.html">Contacto</a>
+					</li>
+				</ul>
+				<div class="contenedorIconos">
+					<div class="iconoRedes">
+						<a href="https://wa.me/+5491159975815" target="_blank"><img src="../img/iconoWpp.svg" alt="icono whatsapp"></a>
+					</div>
+					<div class="iconoRedes">
+						<a href="https://www.instagram.com/limonet.deli/" target="_blank"><img src="../img/iconoIg.svg" alt="icono instagram"></a>
+					</div>
+				</div>
+		  </div>		  
+		</nav> 
+	</header>
+	<div id="formularioDeContacto" class="d-flex flex-column justify-content-around align-items-center">
+		<h1 class="titulo col-sm-12">¡Contactate con nosotros!</h1>
+		<form class="bordesForm col-sm-10 col-lg-8" action="" method="POST" autocomplete="off">
+			<input type="text" class="campo bordesForm" name="nombre" placeholder="Nombre" required>
+			<input type="text" class="campo bordesForm" name="apellido" placeholder="Apellido" required>
+			<input type="email" class="campo bordesForm" name="email" placeholder="Email" required>
+			<input type="tel" class="campo bordesForm" name="telefono" placeholder="Telefono">
+			<label class="campo" for="mensaje">Mensaje:</label>
+			<div class="seccionForm">
+				<textarea id="mensaje" class="bordesForm" placeholder="Ingrese su mensaje" required></textarea>
+			</div>
+			<div class="seccionForm">
+			<label class="campo">¿Ya probaste nuestros productos?</label>
+				<input type="radio" name="opcion">
+				<label>Si</label>
+				<input type="radio" name="opcion">
+				<label>No</label>
+			</div>
+			<input class="enviarFormulario bordesForm" type="submit" name="enviar" value="Enviar">
+		</form>
+	</div>
+	<footer>
+		<div class="menuFooter">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../index.html#nosotros">Nosotros</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="pedidos.html">Pedidos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			<p>some text</p>
+		</div>
+		<div class="iconosFooter">
+			<div class="iconoRedes">
+				<a href="https://wa.me/+5491159975815" target="_blank"><img src="../img/iconoWpp.svg" alt="icono whatsapp"></a>
+			</div>
+			<div class="iconoRedes"> 
+				<a href="https://www.instagram.com/limonet.deli/" target="_blank"><img src="../img/iconoIg.svg" alt="icono instagram"></a>
+			</div>
+			<div class="iconoRedes"> <!-- no lleva a ningun enlace ya que la marca de la pagina no tiene fb, es decorativo para el proyecto-->
+				<img src="../img/iconoFb.svg" alt="icono facebook">
+			</div>
+		</div>
+	</footer>
+	<script src="../js/jquery-3.5.1.slim.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

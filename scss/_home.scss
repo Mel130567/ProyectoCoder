@@ -1,0 +1,50 @@
+/*Estilos especificos para la pagina principal + seccion "nosotros"*/
+.seccionNosotros{
+	height: auto;
+	margin: 20px 0px;
+}
+.imgProducto{
+	width: 500px;
+	height: 400px;
+}
+.imgProducto img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.textoProducto{
+	width: 500px;
+	height: auto;
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+@media (min-width: 992px){
+	.alternado{
+		order: 2;
+	}
+}
+.textoProducto p{
+	font-size: 1.3rem;
+	padding-top: 5px;
+}
+#ubicacion{
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	h1{
+		font-size: 1.1rem;
+		text-align: center;
+	}
+}
+.mapa{
+	border: 5px solid $color2;
+	width: 70%;
+	height: 350px;
+}
+.mapa iframe{
+	width: 100%;
+	height: 100%;
+}

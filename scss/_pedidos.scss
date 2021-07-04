@@ -1,0 +1,59 @@
+/*Comienzan estilos especificos para seccion PEDIDOS*/
+.banner{
+	background-image: url(../img/bannerMob.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 720px;
+	width: 100%;
+}
+@media (min-width: 992px){
+	.banner{
+		background-image: url(../img/banner.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 400px;
+	}
+}
+#pedidos{
+	width: 100%;
+	min-height: 80vh;
+}
+.contenidoPedidos{
+	width: 490px;
+	height: 500px;
+}
+.contenidoPedidos h2{
+	padding: 20px 0px;
+}
+.listas{
+	font-size: 20px;
+	margin-left: 20px;
+	padding-left: 10px;
+}
+.listas li{
+	line-height: 2em;
+}
+.linkContacto{
+	font-size: 20px;
+	text-align: center;
+}
+.linkContacto a{
+	color: #3c1a19;
+	text-decoration: none;
+	font-weight: 700;
+	border: 5px solid transparent;
+	transition: all 200ms ease-in-out;
+	&:hover{
+		color: $fondoSecundario;
+		border: 5px solid $fondoSecundario;
+	}
+}
+.lineaBorde{
+	border-top: 2px solid black ;
+}
+@media (min-width: 992px){
+	.lineaBorde{
+		border-left: 2px solid black ;
+		border-top: none;
+	}
+}
