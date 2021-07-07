@@ -4,6 +4,9 @@
 	min-height: 100vh;
 	margin: 20px 0px;
 	box-sizing: border-box;
+	p{
+		font-size: ($tamañoFuente)*3;
+	}
 }
 form{
 	min-height: 75%;
@@ -21,7 +24,6 @@ form{
 	display: block;
 	margin-bottom: 10px;
 	padding-left: 5px;
-
 }
 .seccionForm{
 	display: block;
@@ -36,16 +38,21 @@ form{
 	padding-left: 5px;
 	box-sizing: border-box;
 	background-color: $fondoPrincipal;
+	resize: none;
 }
 input{
 	background-color: $fondoPrincipal;
 }
 .enviarFormulario{
-	background-color: $fondoSecundario;
+	background-color: $fondoPrincipal;
 	margin-top: 10px;
 	width: 70px;
 	border-radius: 5px;
 }
 .bordesForm{
 	border: 2px solid $color2;
+	border-radius: 5px;
+	&:focus{
+		outline: none;
+	}
 }

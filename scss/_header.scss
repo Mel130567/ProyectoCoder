@@ -27,12 +27,13 @@ header{
 	flex-direction: row;
 }
 .iconoRedes{
+	padding: 0 10px;
 	img{
 		height: 42px;
 		width: 42px;
 		transition: all 500ms ease-in-out;
-	&:hover{
-		transform: scale(1.2);
-	}
+		&:hover{
+			transform: scale(1.2);
+		}
 	}
 }
