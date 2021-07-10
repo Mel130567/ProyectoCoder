@@ -120,34 +120,27 @@ header {
 
 /*Comienzan estilos especificos para seccion PEDIDOS*/
 .banner {
-  background-image: url(../img/bannerMob.png);
+  background-image: url(../img/cupcakeBannerMob.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 720px;
-  width: 100%; }
+  height: 400px; }
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
   .banner {
-    background-image: url(../img/banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 400px; } }
-
-#pedidos {
-  width: 100%;
-  min-height: 80vh; }
+    background-image: url(../img/cupcakeBanner.jpg); } }
 
 .contenidoPedidos {
-  width: 490px;
-  height: 500px; }
-
-.contenidoPedidos h2 {
-  padding: 20px 0px; }
+  min-height: 500px;
+  color: #957d51;
+  margin: 40px 0px; }
+  .contenidoPedidos p {
+    text-shadow: 2px 2px 2px white; }
 
 .listas {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 20px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  font-weight: 500; }
 
 .listas li {
   line-height: 2em; }
@@ -157,35 +150,49 @@ header {
   text-align: center; }
 
 .linkContacto a {
-  color: #3c1a19;
+  color: #823333;
   text-decoration: none;
   font-weight: 700;
   border: 5px solid transparent;
+  padding: 0px 5px;
   transition: all 200ms ease-in-out; }
   .linkContacto a:hover {
-    color: #823333;
     border: 5px solid #823333; }
 
 .lineaBorde {
-  border-top: 2px solid black; }
+  border-top: 2px solid #957d51; }
 
 @media (min-width: 992px) {
   .lineaBorde {
-    border-left: 2px solid black;
+    border-left: 2px solid #957d51;
     border-top: none; } }
 
 /*Comienzan estilos especificos para seccion CONTACTO*/
+.bannerContacto {
+  background-image: url(../img/cookiesBannerMob.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .bannerContacto p {
+    font-size: 60px;
+    color: #823333;
+    text-shadow: 2px 2px 2px white; }
+
+@media (min-width: 600px) {
+  .bannerContacto {
+    background-image: url(../img/cookiesBanner.jpg); } }
+
 #formularioDeContacto {
   width: 100%;
-  min-height: 100vh;
-  margin: 20px 0px;
-  box-sizing: border-box; }
-  #formularioDeContacto p {
-    font-size: 60px; }
+  margin: 40px 0px; }
 
 form {
-  min-height: 75%;
-  width: 55%;
+  height: 80%;
+  min-width: 70%;
   font-size: 20px;
   box-sizing: border-box;
   padding: 25px 10px 10px 10px;
@@ -194,7 +201,7 @@ form {
 
 .campo {
   width: 100%;
-  height: 25px;
+  min-height: 25px;
   box-sizing: border-box;
   display: block;
   margin-bottom: 10px;
@@ -203,7 +210,7 @@ form {
 .seccionForm {
   display: block;
   width: 100%;
-  min-height: 40%;
+  min-height: 80px;
   box-sizing: border-box;
   text-align: center; }
 
@@ -219,10 +226,12 @@ input {
   background-color: #f1e9dd; }
 
 .enviarFormulario {
-  background-color: #f1e9dd;
-  margin-top: 10px;
-  width: 70px;
-  border-radius: 5px; }
+  width: 80px;
+  padding: 0px 5px;
+  transition: all 500ms ease-in-out; }
+  .enviarFormulario:hover {
+    background-color: #823333;
+    color: white; }
 
 .bordesForm {
   border: 2px solid #957d51;
