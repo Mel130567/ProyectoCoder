@@ -105,17 +105,18 @@ header {
 
 /*Comienzan estilos especificos para seccion PRODUCTOS*/
 #galeria {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
   padding: 10px;
+  margin: 0px;
   box-sizing: border-box; }
-
-.fotoDeGaleria {
-  width: 200px;
-  height: 200px;
-  transition: all 1s ease-in-out; }
-  .fotoDeGaleria:hover {
-    transform: scale(1.1); }
+  #galeria .fotoDeGaleria {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out; }
+    #galeria .fotoDeGaleria:hover {
+      transform: scale(1.1); }
 
 /*Comienzan estilos especificos para seccion PEDIDOS*/
 .banner {
