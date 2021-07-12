@@ -56,22 +56,18 @@ header {
 
 /*Estilos especificos para la pagina principal + seccion "nosotros"*/
 .seccionNosotros {
-  height: auto;
-  margin: 20px 0px; }
+  margin: 30px 0px; }
 
 .imgProducto {
-  width: 500px;
-  height: 400px; }
-
-.imgProducto img {
-  width: 250px;
-  height: 300px;
-  border-radius: 10px;
   padding: 0px 10px; }
 
+.imgProducto img {
+  min-width: 150px;
+  max-height: 310px;
+  border-radius: 10px;
+  margin: 0px 5px; }
+
 .textoProducto {
-  width: 500px;
-  height: auto;
   padding: 0px 20px;
   box-sizing: border-box; }
 
@@ -85,6 +81,7 @@ header {
 
 #ubicacion {
   min-height: 600px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -95,8 +92,12 @@ header {
 
 .mapa {
   border: 5px solid #957d51;
-  width: 70%;
-  height: 350px; }
+  height: 350px;
+  width: 100%; }
+
+@media (min-width: 576px) {
+  .mapa {
+    width: 70%; } }
 
 .mapa iframe {
   width: 100%;
