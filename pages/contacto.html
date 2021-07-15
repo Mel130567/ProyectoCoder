@@ -65,8 +65,24 @@
 					<input type="radio" name="opcion">
 					<label>No</label>
 			</div>
-			<input class="enviarFormulario bordesForm" type="submit" name="enviar" value="Enviar">
+			<input type="submit" name="enviar" value="Enviar" class="enviarFormulario bordesForm" data-toggle="modal" data-target="#exampleModal">
 		</form>
+	</div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p class="titulo m-auto" id="exampleModalLabel">¡Gracias!</p>
+					<button type="button" class="close mx-0" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body m-auto">
+					Tu mensaje ha sido enviado con exito
+				</div>
+			</div>
+		</div>
 	</div>
 	<footer class="row m-0 text-center align-items-center flex-wrap">
 		<div class="col-md-12 col-lg-4">

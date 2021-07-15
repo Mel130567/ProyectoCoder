@@ -191,7 +191,7 @@ header {
   margin: 40px 0px; }
 
 form {
-  height: 80%;
+  height: 70%;
   min-width: 70%;
   font-size: 20px;
   box-sizing: border-box;
@@ -226,6 +226,8 @@ input {
   background-color: #f1e9dd; }
 
 .enviarFormulario {
+  background-color: #f1e9dd;
+  height: auto;
   width: 80px;
   padding: 0px 5px;
   transition: all 500ms ease-in-out; }
@@ -238,6 +240,13 @@ input {
   border-radius: 5px; }
   .bordesForm:focus {
     outline: none; }
+
+.modal-content {
+  background-color: #f1e9dd;
+  box-shadow: 2px 2px 2px 2px #957d51; }
+  .modal-content p {
+    color: #823333;
+    text-shadow: 2px 2px 2px white; }
 
 footer {
   min-height: 200px;
