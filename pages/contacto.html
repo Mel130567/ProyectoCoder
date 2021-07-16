@@ -49,14 +49,14 @@
 		<p class="titulo">¡Contactate con nosotros!</p>
 	</div>
 	<div id="formularioDeContacto" class="d-flex flex-row justify-content-around align-items-center">
-		<form class="bordesForm" action="" method="POST" autocomplete="off">
-			<input type="text" class="campo bordesForm" name="nombre" placeholder="Nombre" required>
-			<input type="text" class="campo bordesForm" name="apellido" placeholder="Apellido" required>
-			<input type="email" class="campo bordesForm" name="email" placeholder="Email" required>
+		<form class="bordesForm" method="POST" autocomplete="off">
+			<input type="text" class="campo bordesForm" name="nombre" placeholder="Nombre">
+			<input type="text" class="campo bordesForm" name="apellido" placeholder="Apellido">
+			<input type="email" class="campo bordesForm" name="email" placeholder="Email">
 			<input type="tel" class="campo bordesForm" name="telefono" placeholder="Telefono">
 			<label class="campo" for="mensaje">Mensaje:</label>
 			<div class="seccionForm">
-				<textarea id="mensaje" class="bordesForm" placeholder="Ingrese su mensaje" required></textarea>
+				<textarea id="mensaje" class="bordesForm" placeholder="Ingrese su mensaje"></textarea>
 			</div>
 			<div class="seccionForm">
 				<label class="campo">¿Ya probaste nuestros productos?</label>
@@ -65,12 +65,12 @@
 					<input type="radio" name="opcion">
 					<label>No</label>
 			</div>
-			<input type="submit" name="enviar" value="Enviar" class="enviarFormulario bordesForm" data-toggle="modal" data-target="#exampleModal">
+			<input type="button" name="enviar" value="Enviar" class="enviarFormulario bordesForm" data-toggle="modal" data-target="#exampleModal">
 		</form>
 	</div>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
+		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
 					<p class="titulo m-auto" id="exampleModalLabel">¡Gracias!</p>
