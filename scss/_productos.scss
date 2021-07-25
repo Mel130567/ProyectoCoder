@@ -8,6 +8,8 @@
 .fotoDeGaleria{
 	width: 200px;
 	height: 200px;
+	padding: 5px 0px;
+	box-sizing: border-box;
 	transition: all 1s ease-in-out;
 	&:hover{
 		transform: scale(1.1);

@@ -70,14 +70,13 @@ header {
 .textoProducto {
   padding: 10px 20px;
   box-sizing: border-box; }
+  .textoProducto p, .textoProducto h3 {
+    font-size: 1.3rem;
+    padding-top: 5px; }
 
 @media (min-width: 992px) {
   .alternado {
     order: 2; } }
-
-.textoProducto p {
-  font-size: 1.3rem;
-  padding-top: 5px; }
 
 #ubicacion {
   min-height: 600px;
@@ -89,6 +88,8 @@ header {
   #ubicacion h1 {
     font-size: 1.1rem;
     text-align: center; }
+  #ubicacion p {
+    color: #957d51; }
 
 .mapa {
   border: 5px solid #957d51;
@@ -113,6 +114,8 @@ header {
 .fotoDeGaleria {
   width: 200px;
   height: 200px;
+  padding: 5px 0px;
+  box-sizing: border-box;
   transition: all 1s ease-in-out; }
   .fotoDeGaleria:hover {
     transform: scale(1.1); }
