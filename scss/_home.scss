@@ -14,15 +14,15 @@
 .textoProducto{
 	padding: 10px 20px;
 	box-sizing: border-box;
+	p, h3{
+		font-size: 1.3rem;
+		padding-top: 5px;	
+	}
 }
 @media (min-width: 992px){
 	.alternado{
 		order: 2;
 	}
-}
-.textoProducto p{
-	font-size: 1.3rem;
-	padding-top: 5px;
 }
 #ubicacion{
 	min-height: 600px;
@@ -34,6 +34,9 @@
 	h1{
 		font-size: 1.1rem;
 		text-align: center;
+	}
+	p{
+		color: $color2;
 	}
 }
 .mapa{
