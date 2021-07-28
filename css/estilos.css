@@ -12,12 +12,6 @@ body {
   text-align: center;
   margin-bottom: 10px; }
 
-.titulo {
-  font-family: "Lobster Two", cursive;
-  font-weight: 700;
-  text-align: center;
-  font-size: 40px; }
-
 header {
   background-color: #823333;
   width: 100%;
@@ -25,21 +19,19 @@ header {
 
 .menu {
   margin: 0px auto; }
-
-.menu li {
-  height: 100%;
-  width: 100%;
-  padding: 0 20px; }
-
-.menu li a {
-  width: 100%;
-  font-family: "Lobster Two", cursive;
-  font-size: 25px;
-  border: 2px solid transparent;
-  transition: all 200ms ease-in-out; }
-  .menu li a:hover {
-    border: 2px solid white;
-    border-radius: 3px; }
+  .menu li {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px; }
+    .menu li a {
+      width: 100%;
+      font-family: "Lobster Two", cursive;
+      font-size: 25px;
+      border: 2px solid transparent;
+      transition: all 200ms ease-in-out; }
+      .menu li a:hover {
+        border: 2px solid white;
+        border-radius: 3px; }
 
 .contenedorIconos {
   display: flex;
@@ -60,12 +52,11 @@ header {
 
 .imgProducto {
   padding: 0px 10px; }
-
-.imgProducto img {
-  min-width: 150px;
-  max-height: 310px;
-  border-radius: 10px;
-  margin: 0px 5px; }
+  .imgProducto img {
+    min-width: 150px;
+    max-height: 310px;
+    border-radius: 10px;
+    margin: 0px 5px; }
 
 .textoProducto {
   padding: 10px 20px;
@@ -88,21 +79,18 @@ header {
   #ubicacion h1 {
     font-size: 1.1rem;
     text-align: center; }
-  #ubicacion p {
-    color: #957d51; }
 
 .mapa {
   border: 5px solid #957d51;
   height: 350px;
   width: 100%; }
+  .mapa iframe {
+    width: 100%;
+    height: 100%; }
 
 @media (min-width: 576px) {
   .mapa {
     width: 70%; } }
-
-.mapa iframe {
-  width: 100%;
-  height: 100%; }
 
 /*Comienzan estilos especificos para seccion PRODUCTOS*/
 #galeria {
@@ -110,15 +98,14 @@ header {
   padding: 10px;
   margin: 0px;
   box-sizing: border-box; }
-
-.fotoDeGaleria {
-  width: 200px;
-  height: 200px;
-  padding: 5px 0px;
-  box-sizing: border-box;
-  transition: all 1s ease-in-out; }
-  .fotoDeGaleria:hover {
-    transform: scale(1.1); }
+  #galeria .fotoDeGaleria {
+    width: 200px;
+    height: 200px;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out; }
+    #galeria .fotoDeGaleria:hover {
+      transform: scale(1.1); }
 
 /*Comienzan estilos especificos para seccion PEDIDOS*/
 .banner {
@@ -143,23 +130,21 @@ header {
   margin-left: 20px;
   padding-left: 10px;
   font-weight: 500; }
-
-.listas li {
-  line-height: 2em; }
+  .listas li {
+    line-height: 2em; }
 
 .linkContacto {
   font-size: 20px;
   text-align: center; }
-
-.linkContacto a {
-  color: #823333;
-  text-decoration: none;
-  font-weight: 700;
-  border: 5px solid transparent;
-  padding: 0px 5px;
-  transition: all 200ms ease-in-out; }
-  .linkContacto a:hover {
-    border: 5px solid #823333; }
+  .linkContacto a {
+    color: #823333;
+    text-decoration: none;
+    font-weight: 700;
+    border: 5px solid transparent;
+    padding: 0px 5px;
+    transition: all 200ms ease-in-out; }
+    .linkContacto a:hover {
+      border: 5px solid #823333; }
 
 .lineaBorde {
   border-top: 2px solid #957d51; }
@@ -182,6 +167,7 @@ header {
   .bannerContacto p {
     font-size: 60px;
     color: #823333;
+    font-weight: 700;
     text-shadow: 2px 2px 2px white; }
 
 @media (min-width: 600px) {

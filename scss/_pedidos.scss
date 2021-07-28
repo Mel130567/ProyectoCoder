@@ -23,23 +23,23 @@
 	margin-left: 20px;
 	padding-left: 10px;
 	font-weight: $fuenteMedium;
-}
-.listas li{
-	line-height: 2em;
+	li{
+		line-height: 2em;
+	}
 }
 .linkContacto{
 	font-size: 20px;
 	text-align: center;
-}
-.linkContacto a{
-	color: $fondoSecundario;
-	text-decoration: none;
-	font-weight: 700;
-	border: 5px solid transparent;
-	padding: 0px 5px;
-	transition: all 200ms ease-in-out;
-	&:hover{
-		border: 5px solid $fondoSecundario;
+	a{
+		color: $fondoSecundario;
+		text-decoration: none;
+		font-weight: 700;
+		border: 5px solid transparent;
+		padding: 0px 5px;
+		transition: all 200ms ease-in-out;
+		&:hover{
+			border: 5px solid $fondoSecundario;
+		}
 	}
 }
 .lineaBorde{

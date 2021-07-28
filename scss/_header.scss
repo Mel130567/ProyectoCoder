@@ -3,23 +3,23 @@ header{
 	width: 100%;
 	min-height: 80px;
 }
-.menu {
+.menu{
 	margin: 0px auto; 
-}
-.menu li {
-	height: 100%;
-	width: 100%;
-	padding: 0 20px; 
-}
-.menu li a {
-	width: 100%;
-	font-family: $fuenteSecundaria;
-	font-size: ($tamañoFuente)+5;
-	border: 2px solid transparent;
-	transition: all 200ms ease-in-out;
-	&:hover{
-		border: 2px solid $color1;
-		border-radius: 3px;
+	li{
+		height: 100%;
+		width: 100%;
+		padding: 0 20px;
+		a{
+			width: 100%;
+			font-family: $fuenteSecundaria;
+			font-size: ($tamañoFuente)+5;
+			border: 2px solid transparent;
+			transition: all 200ms ease-in-out;
+			&:hover{
+				border: 2px solid $color1;
+				border-radius: 3px;
+			}
+		}
 	}
 }
 .contenedorIconos{
